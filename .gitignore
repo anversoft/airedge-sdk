@@ -1,0 +1,19 @@
+# Insert here the files/folders/extensions you would like to exclude from git tracking
+
+.DS_Store
+
+.snapshot
+node_modules
+dcc-testdata
+dgc-business-rules-testdata
+examples/data/certificates.json
+
+mycodes/
+coverage/
+.nyc_output/
+*.lcov
+
+# IDE
+.idea
+
+test/data/secrets.js
